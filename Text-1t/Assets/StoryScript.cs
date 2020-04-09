@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class StoryScript : MonoBehaviour
 {
-    [SerializeField]
-    Text textComponent;
+    [SerializeField] Text textComponent;
 
 
     void Start()
@@ -15,8 +14,8 @@ public class StoryScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+
     }
 }
