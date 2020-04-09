@@ -5,8 +5,11 @@ public class StoryScript : MonoBehaviour
 {
     [SerializeField] Text textComponent;
     [SerializeField] State startingState;
+
+    private State state;
     void Start()
     {
-        textComponent.text = startingState.GetStateStory();
+        state = startingState;
+        textComponent.text = state.GetStateStory();
     }
 }
