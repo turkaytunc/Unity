@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: Room2
   m_EditorClassIdentifier: 
   storyText: This is the room2
+  nextState:
+  - {fileID: 11400000, guid: 1c66691119299e7428ca7f6f05a790c4, type: 2}
+  - {fileID: 11400000, guid: 323db3a141101bf44bec696389745c11, type: 2}
