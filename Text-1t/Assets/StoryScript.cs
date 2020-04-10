@@ -23,15 +23,13 @@ public class StoryScript : MonoBehaviour
     {
         State[] nextState = state.GetNextStates();
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        for (int i = 0; i < nextState.Length; i++)
         {
-            state = nextState[0];
+            if (Input.GetKeyDown(KeyCode.Alpha1 + i))
+            {
+                state = nextState[i];
+            }
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            state = nextState[1];
-        } 
-
         textComponent.text = state.GetStateStory();
     }
 }
