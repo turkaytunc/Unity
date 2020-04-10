@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: StartingState
   m_EditorClassIdentifier: 
   storyText: 100 yildir uykudaydin ... Birazdan kendine geleceksin!
+  nextState:
+  - {fileID: 11400000, guid: 1c66691119299e7428ca7f6f05a790c4, type: 2}
+  - {fileID: 11400000, guid: 29b95fbd30cedec4581144da85a3fe75, type: 2}
