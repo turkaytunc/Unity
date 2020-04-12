@@ -221,6 +221,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
+  m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -455,6 +456,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
+  m_isAlignmentEnumConverted: 0
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -754,7 +756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816ec8e6669634042bc71dae65bdf831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Start
+  nextScene: Scene000
 --- !u!1 &1872723067
 GameObject:
   m_ObjectHideFlags: 0
