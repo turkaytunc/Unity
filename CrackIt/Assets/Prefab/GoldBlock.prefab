@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4471334447319892785}
   - component: {fileID: 5632018930388893717}
   - component: {fileID: 6466366753653526634}
+  - component: {fileID: 3827310358863079233}
   m_Layer: 0
   m_Name: GoldBlock
   m_TagString: Untagged
@@ -109,3 +110,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &3827310358863079233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7552327289140649221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edfec4ffa3d74242b84a0659e614ced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
