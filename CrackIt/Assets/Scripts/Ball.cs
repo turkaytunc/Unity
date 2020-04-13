@@ -42,4 +42,13 @@ public class Ball : MonoBehaviour
         paddleToBallVector = (Vector2)paddle.transform.position + Vector2.up;
         transform.position = paddleToBallVector;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.collider.name == "Paddle")
+        {
+            Vector2 ball =  transform.position - collision.transform.position;
+            rb2d.velocity = new Vector2(Mathf.Clamp(2f * ball.x, -5f, 5f), verticalVelocity);
+        }
+    }
 }
