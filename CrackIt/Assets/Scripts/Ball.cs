@@ -13,29 +13,27 @@ public class Ball : MonoBehaviour
     private Rigidbody2D rb2d;
     void Start()
     {
+        rb2d = GetComponent<Rigidbody2D>();
         SetBallPosition();
     }
 
     // Update is called once per frame
     void Update()
     {
-        rb2d = GetComponent<Rigidbody2D>();
-        LaunchBall();
+
+        if (!isGameStarted)
+        {
+            SetBallPosition();
+            LaunchBall();
+        }
     }
 
     private void LaunchBall()
     {
-        if (!isGameStarted)
-        {
-            SetBallPosition();
-        }
-
         if (Input.GetMouseButtonDown(0))
         {
             isGameStarted = true;
-            Debug.Log("Started Game");
             rb2d.velocity = new Vector2(horizontalVelocity, verticalVelocity);
-
         }
     }
 

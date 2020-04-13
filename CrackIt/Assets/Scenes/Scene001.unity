@@ -825,7 +825,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1573258457, guid: 576936c2c1fdb90439f055470a2ee8f2, type: 3}
       propertyPath: verticalVelocity
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 238595763789461388, guid: 576936c2c1fdb90439f055470a2ee8f2, type: 3}
       propertyPath: m_LocalPosition.x
