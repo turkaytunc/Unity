@@ -1,13 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
     [SerializeField] private PaddleMovement paddle;
-
-
     [SerializeField] private Vector2 paddleToBallVector;
+    [SerializeField] private bool isGameStarted;
+    [SerializeField] private float horizontalVelocity;
+    [SerializeField] private float verticalVelocity;
+    private Rigidbody2D rb2d;
     void Start()
     {
         SetBallPosition();
@@ -16,7 +19,24 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SetBallPosition();
+        rb2d = GetComponent<Rigidbody2D>();
+        LaunchBall();
+    }
+
+    private void LaunchBall()
+    {
+        if (!isGameStarted)
+        {
+            SetBallPosition();
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            isGameStarted = true;
+            Debug.Log("Started Game");
+            rb2d.velocity = new Vector2(horizontalVelocity, verticalVelocity);
+
+        }
     }
 
     private void SetBallPosition()
