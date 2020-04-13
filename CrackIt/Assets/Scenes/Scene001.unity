@@ -522,6 +522,62 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1225872606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1225872608}
+  - component: {fileID: 1225872607}
+  m_Layer: 0
+  m_Name: PlayableArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!68 &1225872607
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225872606}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.2049465, y: -4.934633}
+  - {x: -1.2049465, y: -4.995933}
+  - {x: -1.215688, y: 5.079189}
+  - {x: 16.636072, y: 5.0889444}
+  - {x: 16.622599, y: -5.1149635}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!4 &1225872608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225872606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1459238514
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,12 +876,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2037725610}
     - target: {fileID: 1573258457, guid: 576936c2c1fdb90439f055470a2ee8f2, type: 3}
-      propertyPath: horizontalVelocity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1573258457, guid: 576936c2c1fdb90439f055470a2ee8f2, type: 3}
       propertyPath: verticalVelocity
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 238595763789461388, guid: 576936c2c1fdb90439f055470a2ee8f2, type: 3}
       propertyPath: m_LocalPosition.x

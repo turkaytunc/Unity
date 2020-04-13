@@ -136,3 +136,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paddle: {fileID: 0}
   paddleToBallVector: {x: 0, y: 0}
+  isGameStarted: 0
+  horizontalVelocity: 2
+  verticalVelocity: 15
