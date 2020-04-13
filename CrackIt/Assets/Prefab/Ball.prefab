@@ -134,3 +134,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be8e4c1140a63b42b5d1cb5d25d8b81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  paddle: {fileID: 0}
+  paddleToBallVector: {x: 0, y: 0}
