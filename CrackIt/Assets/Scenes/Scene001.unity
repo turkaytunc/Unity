@@ -751,6 +751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LoseCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 8157644156309440000, guid: a5647c37da7782b48ab00fea187c7163, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8157644156309440006, guid: a5647c37da7782b48ab00fea187c7163, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.65
