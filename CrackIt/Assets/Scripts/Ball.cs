@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
@@ -11,16 +8,18 @@ public class Ball : MonoBehaviour
     [SerializeField] private float horizontalVelocity;
     [SerializeField] private float verticalVelocity;
     private Rigidbody2D rb2d;
+
+
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         SetBallPosition();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-
         if (!isGameStarted)
         {
             SetBallPosition();

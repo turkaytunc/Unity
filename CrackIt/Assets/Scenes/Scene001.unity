@@ -197,6 +197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &39123759
@@ -258,6 +262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &104377689
@@ -318,6 +326,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -390,6 +402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &159607693 stripped
@@ -456,6 +472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &253290262
@@ -517,6 +537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &255662657
@@ -577,6 +601,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -649,6 +677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &312809738
@@ -709,6 +741,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -950,6 +986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &419755865
@@ -1010,6 +1050,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -1072,6 +1116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &428980016
@@ -1132,6 +1180,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -1194,6 +1246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &444329025
@@ -1255,6 +1311,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &486361551
@@ -1315,6 +1375,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -1387,6 +1451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &507319526
@@ -1448,6 +1516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &522326948
@@ -1508,6 +1580,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -1575,6 +1651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &593968544 stripped
@@ -1640,6 +1720,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -1852,6 +1936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &650409667 stripped
@@ -1928,6 +2016,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &733594051
@@ -1989,6 +2081,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &742077950
@@ -2049,6 +2145,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -2210,6 +2310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &808716820
@@ -2270,6 +2374,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -2342,6 +2450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &822271294 stripped
@@ -2408,6 +2520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &827423933
@@ -2468,6 +2584,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -2530,6 +2650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &850273834
@@ -2590,6 +2714,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -2662,6 +2790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &878728323 stripped
@@ -2728,6 +2860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &908733415 stripped
@@ -2740,6 +2876,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4471334447319892785, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
   m_PrefabInstance: {fileID: 1811119080}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &936436563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 936436565}
+  - component: {fileID: 936436564}
+  m_Layer: 0
+  m_Name: Win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &936436564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936436563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451c6ce6bbae93b4fb1926e0957303f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockCount: 0
+  gameObjects:
+  - {fileID: 639722942}
+  - {fileID: 390478294}
+--- !u!4 &936436565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936436563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &937368490 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4471334447319892785, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -2875,6 +3058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &1004710244
@@ -2935,6 +3122,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -2997,6 +3188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &1009871904
@@ -3057,6 +3252,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -3129,6 +3328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &1085976759
@@ -3189,6 +3392,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -3251,6 +3458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &1089745379
@@ -3311,6 +3522,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -3383,6 +3598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &1140906269
@@ -3443,6 +3662,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -3636,6 +3859,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &1263976137
@@ -3697,6 +3924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &1267159405
@@ -3757,6 +3988,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -3834,6 +4069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &1388441540 stripped
@@ -3899,6 +4138,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -4118,6 +4361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &1491781958 stripped
@@ -4199,6 +4446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &1581900617 stripped
@@ -4275,6 +4526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &1648850221
@@ -4335,6 +4590,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -4575,6 +4834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &1670507864 stripped
@@ -4646,6 +4909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &1732407312 stripped
@@ -4712,6 +4979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &1811119080
@@ -4772,6 +5043,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -4843,6 +5118,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -4919,6 +5198,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -5047,6 +5330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!4 &1900381504 stripped
@@ -5112,6 +5399,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -5246,6 +5537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!114 &2037725610 stripped
@@ -5318,6 +5613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &2055009364
@@ -5378,6 +5677,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -5440,6 +5743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &2079161160
@@ -5500,6 +5807,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
@@ -5567,6 +5878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldBlock (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
 --- !u!1001 &2136323146
@@ -5627,6 +5942,10 @@ PrefabInstance:
     - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
       propertyPath: m_Name
       value: GoldBlock (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552327289140649221, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc1ed419abd6f254c804d3c51f7381aa, type: 3}
