@@ -126,6 +126,7 @@ MonoBehaviour:
   tmPro: {fileID: 0}
   audioClips:
   - {fileID: 8300000, guid: f451bcefa3386374fa4700a679aec9a9, type: 3}
+  particle: {fileID: 4722373384490161067, guid: c0213e4e49684384f9aad051f0c470b6, type: 3}
 --- !u!82 &5007731786444116969
 AudioSource:
   m_ObjectHideFlags: 0
