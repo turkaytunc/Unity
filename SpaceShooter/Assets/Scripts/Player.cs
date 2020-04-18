@@ -1,9 +1,11 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
-    [SerializeField] private GameObject laser;
+    [SerializeField] private GameObject laserPrefab;
+    [SerializeField] private float laserOffset;
 
 
     private float minPlayerXPos;
@@ -17,7 +19,25 @@ public class Player : MonoBehaviour
     private void Start()
     {
         moveSpeed = 10f;
+        laserOffset = .5f;
         PlayerMovementBoundaries();
+    }
+
+
+    void Update()
+    {
+        CalculatePlayerShipMovement();
+        ShootLaser();
+    }
+
+    private void ShootLaser()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Vector3 laserPosition = new Vector3(transform.position.x, transform.position.y + laserOffset, transform.position.z);
+
+            Instantiate(laserPrefab, laserPosition, Quaternion.identity);
+        }
     }
 
     private void PlayerMovementBoundaries()
@@ -29,11 +49,6 @@ public class Player : MonoBehaviour
 
         minPlayerYPos = mainCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y;
         maxPlayerYPos = mainCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y;
-    }
-
-    void Update()
-    {
-        CalculatePlayerShipMovement();
     }
 
     private void CalculatePlayerShipMovement()
