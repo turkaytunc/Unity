@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed;
     [SerializeField] private GameObject laserPrefab;
-    [SerializeField] private float laserOffset;
 
+    private float moveSpeed;
+    private float laserOffset;
 
     private float minPlayerXPos;
     private float maxPlayerXPos;
@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        moveSpeed = 10f;
+        moveSpeed = 7f;
         laserOffset = .5f;
         PlayerMovementBoundaries();
     }
