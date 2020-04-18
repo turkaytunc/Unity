@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
         float newXPos = Mathf.Clamp(playerPosition.x, minPlayerXPos + playerPositionOffsetX, maxPlayerXPos - playerPositionOffsetX);
         float newYPos = Mathf.Clamp(playerPosition.y, minPlayerYPos + playerPositionOffsetY, maxPlayerYPos - playerPositionOffsetY);
 
-        transform.position = new Vector2(newXPos, newYPos);
+        transform.position = Vector3.Lerp(transform.position, new Vector3(newXPos, newYPos, transform.position.z), .9f);
     }
 
     private Vector2 CalculatePlayerInputValues()
