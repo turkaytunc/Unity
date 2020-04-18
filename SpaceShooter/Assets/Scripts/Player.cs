@@ -3,6 +3,9 @@
 public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
+    [SerializeField] private GameObject laser;
+
+
     private float minPlayerXPos;
     private float maxPlayerXPos;
     private float minPlayerYPos;
@@ -35,7 +38,7 @@ public class Player : MonoBehaviour
 
     private void CalculatePlayerShipMovement()
     {
-        Vector2 playerPosition = CalculatePlayerInputValue();
+        Vector2 playerPosition = CalculatePlayerInputValues();
 
         float newXPos = Mathf.Clamp(playerPosition.x, minPlayerXPos + playerPositionOffsetX, maxPlayerXPos - playerPositionOffsetX);
         float newYPos = Mathf.Clamp(playerPosition.y, minPlayerYPos + playerPositionOffsetY, maxPlayerYPos - playerPositionOffsetY);
@@ -43,7 +46,7 @@ public class Player : MonoBehaviour
         transform.position = new Vector2(newXPos, newYPos);
     }
 
-    private Vector2 CalculatePlayerInputValue()
+    private Vector2 CalculatePlayerInputValues()
     {
         float xPos, yPos;
         xPos = transform.position.x + Input.GetAxisRaw("Horizontal") * Time.deltaTime * moveSpeed;
