@@ -1,25 +1,54 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
+    private float minPlayerXPos;
+    private float maxPlayerXPos;
+    private float minPlayerYPos;
+    private float maxPlayerYPos;
+
+    private float playerPositionOffsetY = .5f;
+    private float playerPositionOffsetX = .25f;
 
     private void Start()
     {
         moveSpeed = 10f;
+        PlayerMovementBoundaries();
     }
+
+    private void PlayerMovementBoundaries()
+    {
+        Camera mainCamera = Camera.main;
+
+        minPlayerXPos = mainCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x;
+        maxPlayerXPos = mainCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x;
+
+        minPlayerYPos = mainCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y;
+        maxPlayerYPos = mainCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y;
+    }
+
     void Update()
     {
-        Move();
+        CalculatePlayerShipMovement();
     }
 
-    private void Move()
+    private void CalculatePlayerShipMovement()
     {
-        float xPos = transform.position.x + Input.GetAxisRaw("Horizontal") * Time.deltaTime * moveSpeed;
-        float yPos = transform.position.y + Input.GetAxisRaw("Vertical") * Time.deltaTime * moveSpeed;
+        Vector2 playerPosition = CalculatePlayerInputValue();
 
-        transform.position = new Vector2(Mathf.Clamp(xPos, -5.4f, 5.4f), Mathf.Clamp(yPos, -9.5f, 9.5f));
+        float newXPos = Mathf.Clamp(playerPosition.x, minPlayerXPos + playerPositionOffsetX, maxPlayerXPos - playerPositionOffsetX);
+        float newYPos = Mathf.Clamp(playerPosition.y, minPlayerYPos + playerPositionOffsetY, maxPlayerYPos - playerPositionOffsetY);
+
+        transform.position = new Vector2(newXPos, newYPos);
+    }
+
+    private Vector2 CalculatePlayerInputValue()
+    {
+        float xPos, yPos;
+        xPos = transform.position.x + Input.GetAxisRaw("Horizontal") * Time.deltaTime * moveSpeed;
+        yPos = transform.position.y + Input.GetAxisRaw("Vertical") * Time.deltaTime * moveSpeed;
+
+        return new Vector2(xPos, yPos);
     }
 }
