@@ -10,7 +10,7 @@ public class EnemyPathing : MonoBehaviour
 
     private void Start()
     {
-        transform.position = waypoints[waypointIndex].transform.position;
+        transform.position = waypoints[waypointIndex].position;
     }
 
     void Update()
