@@ -17,9 +17,12 @@ public class EnemySpawner : MonoBehaviour
     private IEnumerator SpawnAllEnemies(WaveConfig currentWave)
     {
 
-        for(int i = 0; i <= currentWave.NumberOfEnemies; i++)
+        for(int i = 0; i < currentWave.NumberOfEnemies; i++)
         {
-            Instantiate(currentWave.EnemyPrefab, currentWave.GetWayPoints()[0].position, Quaternion.identity);
+            var newEnemy = Instantiate(currentWave.EnemyPrefab, currentWave.GetWayPoints()[0].position, Quaternion.identity);
+
+            newEnemy.GetComponent<EnemyPathing>().SetWaveConfig(currentWave);
+
             yield return new WaitForSeconds(currentWave.TimeBetweenSpawns);
             
         }

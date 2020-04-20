@@ -3,8 +3,7 @@ using UnityEngine;
 
 public class EnemyPathing : MonoBehaviour
 {
-    [SerializeField] private WaveConfig waveConfig;
-    [SerializeField] private float movementSpeed = 5f;
+    private WaveConfig waveConfig;
 
     private List<Transform> waypoints;
     private int waypointIndex = 0;
@@ -25,7 +24,7 @@ public class EnemyPathing : MonoBehaviour
     {
         if (waypointIndex < waypoints.Count)
         {
-            transform.position = Vector3.MoveTowards(transform.position, waypoints[waypointIndex].position, movementSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, waypoints[waypointIndex].position, waveConfig.MoveSpeed * Time.deltaTime);
 
             if (Vector3.Distance(transform.position, waypoints[waypointIndex].position) < 0.3f)
             {
@@ -36,5 +35,10 @@ public class EnemyPathing : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void SetWaveConfig(WaveConfig waveConfig)
+    {
+        this.waveConfig = waveConfig;
     }
 }
