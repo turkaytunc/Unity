@@ -618,26 +618,6 @@ PrefabInstance:
       value: EnemyShip
       objectReference: {fileID: 0}
     - target: {fileID: 4070098892273868359, guid: 4661c7bb76004af4f814a2534e74bbfd, type: 3}
-      propertyPath: waypoints.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4070098892273868359, guid: 4661c7bb76004af4f814a2534e74bbfd, type: 3}
-      propertyPath: waypoints.Array.data[4]
-      value: 
-      objectReference: {fileID: 671772329}
-    - target: {fileID: 4070098892273868359, guid: 4661c7bb76004af4f814a2534e74bbfd, type: 3}
-      propertyPath: waypoints.Array.data[5]
-      value: 
-      objectReference: {fileID: 447458954}
-    - target: {fileID: 4070098892273868359, guid: 4661c7bb76004af4f814a2534e74bbfd, type: 3}
-      propertyPath: waypoints.Array.data[6]
-      value: 
-      objectReference: {fileID: 2005899084}
-    - target: {fileID: 4070098892273868359, guid: 4661c7bb76004af4f814a2534e74bbfd, type: 3}
-      propertyPath: waypoints.Array.data[7]
-      value: 
-      objectReference: {fileID: 819815463}
-    - target: {fileID: 4070098892273868359, guid: 4661c7bb76004af4f814a2534e74bbfd, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
       objectReference: {fileID: 671772329}
@@ -653,5 +633,9 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[3]
       value: 
       objectReference: {fileID: 819815463}
+    - target: {fileID: 4070098892273868359, guid: 4661c7bb76004af4f814a2534e74bbfd, type: 3}
+      propertyPath: movementSpeed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4661c7bb76004af4f814a2534e74bbfd, type: 3}

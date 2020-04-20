@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2131767180992080361}
   - component: {fileID: 295316700}
   - component: {fileID: 4070098892273868359}
+  - component: {fileID: 2050915250}
   m_Layer: 0
   m_Name: EnemyShip
   m_TagString: EnemyShip
@@ -112,4 +113,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d9867550feedaf47b12a0025e678f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints: []
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  movementSpeed: 2
+--- !u!50 &2050915250
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131767180992080366}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
