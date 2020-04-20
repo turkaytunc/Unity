@@ -113,11 +113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d9867550feedaf47b12a0025e678f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  waveConfig: {fileID: 0}
+  waypoints: []
   movementSpeed: 5
 --- !u!50 &2050915250
 Rigidbody2D:
