@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
 
 [CreateAssetMenu(menuName = "EnemyConfig")]
 public class WaveConfig : ScriptableObject
@@ -12,9 +13,19 @@ public class WaveConfig : ScriptableObject
     [SerializeField] private float moveSpeed = 5f;
 
     public GameObject EnemyPrefab { get => enemyPrefab; }
-    public GameObject PathPrefab { get => pathPrefab;}
     public float TimeBetweenSpawns { get => timeBetweenSpawns;}
     public float SpawnRandomizerTime { get => spawnRandomizerTime;}
     public int NumberOfEnemies { get => numberOfEnemies;}
     public float MoveSpeed { get => moveSpeed;}
+    public List<Transform> GetWayPoints() 
+    { 
+        List<Transform> waveWaypoints = new List<Transform>(); 
+        
+        foreach(Transform child in pathPrefab.transform)
+        {
+            waveWaypoints.Add(child);
+        }
+
+        return waveWaypoints;
+    }
 }
