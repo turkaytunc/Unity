@@ -4,9 +4,11 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private GameObject laserPrefab;
+    [SerializeField] private float fireRate = 10f;
 
     private float moveSpeed;
     private float laserOffset;
+    private float timeToShoot;
 
     private float minPlayerXPos;
     private float maxPlayerXPos;
@@ -16,8 +18,10 @@ public class Player : MonoBehaviour
     private float playerPositionOffsetY = .5f;
     private float playerPositionOffsetX = .25f;
 
+
     private void Start()
     {
+        timeToShoot = 1 / fireRate;
         moveSpeed = 7f;
         laserOffset = .5f;
         PlayerMovementBoundaries();
@@ -32,11 +36,13 @@ public class Player : MonoBehaviour
 
     private void ShootLaser()
     {
-        if (Input.GetButtonDown("Fire1"))
+        timeToShoot -= Time.deltaTime;
+
+        if (Input.GetButton("Fire1") && timeToShoot <= 0)
         {
             Vector3 laserPosition = new Vector3(transform.position.x, transform.position.y + laserOffset, transform.position.z);
-
             Instantiate(laserPrefab, laserPosition, Quaternion.identity);
+            timeToShoot = 1 / fireRate;
         }
     }
 
