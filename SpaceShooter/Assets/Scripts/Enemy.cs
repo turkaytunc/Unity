@@ -5,8 +5,41 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float health = 500;
     [SerializeField] private GameObject explosionPrefab;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    [SerializeField] private GameObject laserPrefab;
+    [SerializeField] private float fireRate = 2f;
+
+    private float setShootTimer;
+    private float timeToShoot = 0;
+    private float laserOffset;
+
+    private void Start()
     {
+        laserOffset = -1f;
+        setShootTimer = 1 / fireRate;
+
+    }
+
+    private void Update()
+    {
+        Shoot();
+
+    }
+
+    private void Shoot()
+    {
+        timeToShoot -= Time.deltaTime;
+
+        if (timeToShoot <= 0)
+        {
+            Vector3 laserPosition = new Vector3(transform.position.x, transform.position.y + laserOffset, transform.position.z);
+            Instantiate(laserPrefab, laserPosition, Quaternion.identity);
+            timeToShoot = setShootTimer;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+{
+       
         int damage = collision.gameObject.GetComponent<DamageDealer>().GetDamage();
 
         health -= damage;
@@ -16,5 +49,6 @@ public class Enemy : MonoBehaviour
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
+        
     }
 }

@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laserVelocity: 20
+  isEnemy: 0
 --- !u!114 &6686319141817973793
 MonoBehaviour:
   m_ObjectHideFlags: 0
