@@ -19,6 +19,7 @@ public class EnemySpawner : MonoBehaviour
             WaveConfig currentWave = waveConfigs[i];
 
             yield return StartCoroutine(SpawnEnemyWave(currentWave));
+            yield return new WaitForSeconds(3);
         }
     }
 
