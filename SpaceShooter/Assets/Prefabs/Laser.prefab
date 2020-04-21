@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5735115957170192760}
   - component: {fileID: 5735115957170192763}
   - component: {fileID: 4550571277287227039}
+  - component: {fileID: 6686319141817973793}
   - component: {fileID: 1486724810137616901}
   - component: {fileID: 3383057099891929319}
   m_Layer: 0
@@ -98,6 +99,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laserVelocity: 20
+--- !u!114 &6686319141817973793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5735115957170192762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbadc2d2c89d2541ad3b1a2fb9ce979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageNumber: 500
 --- !u!50 &1486724810137616901
 Rigidbody2D:
   serializedVersion: 4

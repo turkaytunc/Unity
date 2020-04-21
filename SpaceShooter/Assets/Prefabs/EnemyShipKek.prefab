@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6475076117165376313}
   - component: {fileID: 4920632949718009356}
   - component: {fileID: 8949352814621865111}
+  - component: {fileID: 3693772252572683433}
   - component: {fileID: 4920632949040353634}
   m_Layer: 0
   m_Name: EnemyShipKek
@@ -113,6 +114,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d9867550feedaf47b12a0025e678f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3693772252572683433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6475076117165376318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f76646794db6e42bd5dedf44d4b151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1000
 --- !u!50 &4920632949040353634
 Rigidbody2D:
   serializedVersion: 4

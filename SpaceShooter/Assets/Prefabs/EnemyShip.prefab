@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2131767180992080361}
   - component: {fileID: 295316700}
   - component: {fileID: 4070098892273868359}
+  - component: {fileID: 684108946543193297}
   - component: {fileID: 2050915250}
   m_Layer: 0
   m_Name: EnemyShip
@@ -113,8 +114,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d9867550feedaf47b12a0025e678f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveConfig: {fileID: 11400000, guid: 871bb46ad98041143ab1e77e47f9c184, type: 2}
-  movementSpeed: 5
+--- !u!114 &684108946543193297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131767180992080366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f76646794db6e42bd5dedf44d4b151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &2050915250
 Rigidbody2D:
   serializedVersion: 4
