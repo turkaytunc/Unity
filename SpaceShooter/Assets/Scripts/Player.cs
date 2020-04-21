@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     private float laserOffset;
     private float timeToShoot;
 
+    #region Player Position Variables
     private float minPlayerXPos;
     private float maxPlayerXPos;
     private float minPlayerYPos;
@@ -23,7 +24,7 @@ public class Player : MonoBehaviour
     private float playerPositionOffsetY = .5f;
     private float playerPositionOffsetX = .25f;
 
-
+    #endregion
     private void Start()
     {
         timeToShoot = 1 / fireRate;
@@ -87,13 +88,15 @@ public class Player : MonoBehaviour
         int damage = collision.gameObject.GetComponent<DamageDealer>().GetDamage();
         health -= damage;
 
-        Debug.Log("damage");
-        Debug.Log(health);
+        SelfDestruction();
+    }
+
+    private void SelfDestruction()
+    {
         if (health <= 0)
         {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
-
 }

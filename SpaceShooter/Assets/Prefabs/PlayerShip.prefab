@@ -101,7 +101,7 @@ MonoBehaviour:
   laserPrefab: {fileID: 5735115957170192762, guid: d0ad0b7f23479b442b27ef7e95c03b94, type: 3}
   fireRate: 10
   health: 500
-  explosionPrefab: {fileID: 8967965413062128267, guid: bc7e76b334745ca4db41aeb26ac813b9, type: 3}
+  explosionPrefab: {fileID: 8967965413062128267, guid: a5d84b93115d2984b8d2f9fadb2bafa3, type: 3}
 --- !u!95 &47955207
 Animator:
   serializedVersion: 3
