@@ -3,8 +3,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Laser")]
     [SerializeField] private GameObject laserPrefab;
     [SerializeField] private float fireRate = 10f;
+
+
+    [SerializeField] private float health = 500;
+    [SerializeField] private GameObject explosionPrefab;
 
     private float moveSpeed;
     private float laserOffset;
@@ -75,4 +80,20 @@ public class Player : MonoBehaviour
 
         return new Vector2(xPos, yPos);
     }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        int damage = collision.gameObject.GetComponent<DamageDealer>().GetDamage();
+        health -= damage;
+
+        Debug.Log("damage");
+        Debug.Log(health);
+        if (health <= 0)
+        {
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+    }
+
 }
