@@ -1,18 +1,23 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TMPro;
 using UnityEngine;
 
 public class SetUI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private GameObject gameManagerObject;
+    private GameManager gameManager;
+
+    private TextMeshProUGUI scoreText;
+    private TextMeshProUGUI playerHealthText;
+
+    private void Start()
     {
-        
+        gameManager = gameManagerObject.GetComponent<GameManager>();
+        scoreText = transform.Find("ScoreText").GetComponent<TextMeshProUGUI>();
+        playerHealthText = transform.Find("PlayerHealthText").GetComponent<TextMeshProUGUI>();
+
+        scoreText.text = "0";
+        playerHealthText.text = gameManager.GetPlayerHealth().ToString();
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
