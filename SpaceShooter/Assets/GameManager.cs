@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
     {
         isGameOver = false;
         SetPlayerHealth(500);
-        SetScore(0);
+        score = 0;
         SceneManager.LoadScene("Scene001");
     }
 
@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
     {
         isGameOver = false;
         SetPlayerHealth(500);
-        SetScore(0);
+        score = 0;
         SceneManager.LoadScene("MainMenu");
     }
 

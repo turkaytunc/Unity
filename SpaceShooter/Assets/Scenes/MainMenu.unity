@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &60746489 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 574874116984686411, guid: 627b19329844ecb429570dc38af8fc19, type: 3}
-  m_PrefabInstance: {fileID: 1144781364}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d403640a914817a468c5c980f77e395d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &287655320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -395,23 +384,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1876935961 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1444066749, guid: d84b9dd40d2916242a1b1d8ebf66f253, type: 3}
-  m_PrefabInstance: {fileID: 5994774487393021171}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1876935962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1876935961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88728c182fcda284c8f9368ecb6a532d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5994774487393021171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -419,14 +391,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1444066751, guid: d84b9dd40d2916242a1b1d8ebf66f253, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1444066751, guid: d84b9dd40d2916242a1b1d8ebf66f253, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 60746489}
     - target: {fileID: 2671486802686647105, guid: d84b9dd40d2916242a1b1d8ebf66f253, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -515,9 +479,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenuCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 3548779861504474161, guid: d84b9dd40d2916242a1b1d8ebf66f253, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 60746489}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d84b9dd40d2916242a1b1d8ebf66f253, type: 3}

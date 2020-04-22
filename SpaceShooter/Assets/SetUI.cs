@@ -14,7 +14,6 @@ public class SetUI : MonoBehaviour
         gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         scoreText = transform.Find("ScoreText").GetComponent<TextMeshProUGUI>();
 
-
         scoreText.text = gameManager.GetScore().ToString();
 
 
@@ -28,11 +27,10 @@ public class SetUI : MonoBehaviour
 
     private void Update()
     {
-
+        
         scoreText.text = gameManager.GetScore().ToString();
         if (gameManager.IsGameOver == false && SceneManager.GetActiveScene().name != "MainMenu")
         {
-            gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
             playerHealthText.text = gameManager.GetPlayerHealth().ToString();
         }
     }
