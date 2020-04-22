@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] private float health = 500;
     [SerializeField] private GameObject explosionPrefab;
+    [SerializeField] private AudioClip playerDeathSound;
 
     private float moveSpeed;
     private float laserOffset;
@@ -96,6 +97,7 @@ public class Player : MonoBehaviour
         if (health <= 0)
         {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            AudioSource.PlayClipAtPoint(playerDeathSound, Camera.main.transform.position, .5f);
             Destroy(gameObject);
         }
     }
