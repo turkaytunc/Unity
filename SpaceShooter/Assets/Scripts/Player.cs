@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float fireRate = 10f;
 
 
-    [SerializeField] private float health = 500;
+    [SerializeField] private float health = 300;
     [SerializeField] private GameObject explosionPrefab;
     [SerializeField] private AudioClip playerDeathSound;
     [SerializeField] private AudioClip laserSound;
@@ -89,10 +89,12 @@ public class Player : MonoBehaviour
     }
 
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         int damage = collision.gameObject.GetComponent<DamageDealer>().GetDamage();
         health -= damage;
+
         gameManager.SetPlayerHealth(this.health);
 
         SelfDestruction();

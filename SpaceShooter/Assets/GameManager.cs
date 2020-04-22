@@ -4,8 +4,12 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private float playerHealth = 100;
+    private float playerHealth = 200;
     private float score = 0;
+
+    private bool isGameOver;
+
+    public bool IsGameOver { get => isGameOver; set => isGameOver = value; }
 
 
 
@@ -16,15 +20,7 @@ public class GameManager : MonoBehaviour
 
     public void SetPlayerHealth(float playerHealth)
     {
-        if(playerHealth >= 0)
-        {
             this.playerHealth = playerHealth;
-
-        }
-        else
-        {
-            this.playerHealth = 0;
-        }
     }
 
     public float GetPlayerHealth()
@@ -47,9 +43,22 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator LoadGameOverScene()
     {
+        
         yield return new WaitForSeconds(2f);
+        isGameOver = !isGameOver;
         SceneManager.LoadScene("GameOver");
 
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+
+    public void LoadGameLevel()
+    {
+        SceneManager.LoadScene("Scene001");
     }
 
 

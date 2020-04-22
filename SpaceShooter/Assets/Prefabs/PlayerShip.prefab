@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 47955207}
   - component: {fileID: 1737592825}
   - component: {fileID: 4176613592966684080}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PlayerShip
   m_TagString: PlayerShip
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserPrefab: {fileID: 5735115957170192762, guid: d0ad0b7f23479b442b27ef7e95c03b94, type: 3}
   fireRate: 10
-  health: 500
+  health: 300
   explosionPrefab: {fileID: 8967965413062128267, guid: a5d84b93115d2984b8d2f9fadb2bafa3, type: 3}
   playerDeathSound: {fileID: 8300000, guid: fc7776f6ef92a7244beb6e8c6183fad9, type: 3}
   laserSound: {fileID: 8300000, guid: 36426599152705146a7f2c00187923bb, type: 3}

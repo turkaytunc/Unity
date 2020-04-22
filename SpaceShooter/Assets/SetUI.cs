@@ -9,6 +9,7 @@ public class SetUI : MonoBehaviour
     private TextMeshProUGUI playerHealthText;
 
 
+
     private void Awake()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
@@ -18,17 +19,23 @@ public class SetUI : MonoBehaviour
     {
         
         scoreText = transform.Find("ScoreText").GetComponent<TextMeshProUGUI>();
-        playerHealthText = transform.Find("PlayerHealthText").GetComponent<TextMeshProUGUI>();
+        if (!gameManager.IsGameOver)
+        {
+            playerHealthText = transform.Find("PlayerHealthText").GetComponent<TextMeshProUGUI>();
+            playerHealthText.text = gameManager.GetPlayerHealth().ToString();
+        }
 
         scoreText.text = gameManager.GetScore().ToString();
-        playerHealthText.text = gameManager.GetPlayerHealth().ToString();
 
     }
 
     private void Update()
     {
         scoreText.text = gameManager.GetScore().ToString();
-        playerHealthText.text = gameManager.GetPlayerHealth().ToString();
+        if (!gameManager.IsGameOver)
+        {
+            playerHealthText.text = gameManager.GetPlayerHealth().ToString();
+        }
     }
 
 }
