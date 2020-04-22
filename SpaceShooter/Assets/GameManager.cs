@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
     {
         
         yield return new WaitForSeconds(2f);
-        isGameOver = !isGameOver;
+        isGameOver = true;
         SceneManager.LoadScene("GameOver");
 
     }
@@ -58,7 +58,18 @@ public class GameManager : MonoBehaviour
 
     public void LoadGameLevel()
     {
+        isGameOver = false;
+        SetPlayerHealth(500);
+        SetScore(0);
         SceneManager.LoadScene("Scene001");
+    }
+
+    public void LoadMainMenu()
+    {
+        isGameOver = false;
+        SetPlayerHealth(500);
+        SetScore(0);
+        SceneManager.LoadScene("MainMenu");
     }
 
 

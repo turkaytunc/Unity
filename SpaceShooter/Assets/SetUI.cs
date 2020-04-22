@@ -19,7 +19,7 @@ public class SetUI : MonoBehaviour
     {
         
         scoreText = transform.Find("ScoreText").GetComponent<TextMeshProUGUI>();
-        if (!gameManager.IsGameOver)
+        if (gameManager.IsGameOver == false)
         {
             playerHealthText = transform.Find("PlayerHealthText").GetComponent<TextMeshProUGUI>();
             playerHealthText.text = gameManager.GetPlayerHealth().ToString();
@@ -32,7 +32,7 @@ public class SetUI : MonoBehaviour
     private void Update()
     {
         scoreText.text = gameManager.GetScore().ToString();
-        if (!gameManager.IsGameOver)
+        if (gameManager.IsGameOver == false)
         {
             playerHealthText.text = gameManager.GetPlayerHealth().ToString();
         }
