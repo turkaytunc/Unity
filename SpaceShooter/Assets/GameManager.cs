@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
 
     public void SetScore(float score)
     {
-        this.score = score;
+        this.score += score;
     }
 
     public float GetScore()

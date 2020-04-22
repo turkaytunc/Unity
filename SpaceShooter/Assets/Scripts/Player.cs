@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
         moveSpeed = 7f;
         laserOffset = .5f;
         PlayerMovementBoundaries();
+        gameManager.SetPlayerHealth(this.health);
     }
 
 

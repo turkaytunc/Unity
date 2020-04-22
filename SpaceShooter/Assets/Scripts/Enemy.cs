@@ -3,11 +3,14 @@
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float health = 500;
+    [SerializeField] [Range(100, 500)] private float scoreAmount = 100;
     [SerializeField] private GameObject explosionPrefab;
 
     [SerializeField] private GameObject laserPrefab;
     [SerializeField] private float fireRate = 2f;
     [SerializeField] private AudioClip explosionSound;
+
+    private GameManager gameManager;
 
     private float setShootTimer;
     private float timeToShoot = 0;
@@ -17,6 +20,7 @@ public class Enemy : MonoBehaviour
     {
         laserOffset = -1f;
         setShootTimer = 1 / fireRate;
+
 
     }
 
@@ -47,8 +51,11 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
         {
+            gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 
+            gameManager.SetScore(this.scoreAmount);
             Destroy(gameObject);
 
             AudioSource.PlayClipAtPoint(explosionSound, Camera.main.transform.position, 0.05f);
