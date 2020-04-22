@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float fireRate = 10f;
 
 
-    [SerializeField] private float health = 300;
+    [SerializeField] private float health = 500;
     [SerializeField] private GameObject explosionPrefab;
     [SerializeField] private AudioClip playerDeathSound;
     [SerializeField] private AudioClip laserSound;

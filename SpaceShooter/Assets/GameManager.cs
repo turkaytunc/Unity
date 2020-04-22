@@ -4,10 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private float playerHealth = 200;
+    private float playerHealth;
     private float score = 0;
 
-    private bool isGameOver;
+    [SerializeField] private bool isGameOver;
 
     public bool IsGameOver { get => isGameOver; set => isGameOver = value; }
 
