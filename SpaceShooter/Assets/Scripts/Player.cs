@@ -1,5 +1,5 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
+
 
 public class Player : MonoBehaviour
 {
@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     [SerializeField] private AudioClip playerDeathSound;
     [SerializeField] private AudioClip laserSound;
 
+    private GameObject gameManager;
     private float moveSpeed;
     private float laserOffset;
     private float timeToShoot;
@@ -29,6 +30,7 @@ public class Player : MonoBehaviour
     #endregion
     private void Start()
     {
+        gameManager = GameObject.FindGameObjectWithTag("GameManager");
         timeToShoot = 1 / fireRate;
         moveSpeed = 7f;
         laserOffset = .5f;
@@ -100,7 +102,11 @@ public class Player : MonoBehaviour
         {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             AudioSource.PlayClipAtPoint(playerDeathSound, Camera.main.transform.position, .5f);
+            gameManager.GetComponent<GameManager>().GameOver();
             Destroy(gameObject);
         }
     }
+
+
+
 }
