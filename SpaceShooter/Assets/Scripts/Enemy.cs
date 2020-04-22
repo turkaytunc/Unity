@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
 
     [SerializeField] private GameObject laserPrefab;
     [SerializeField] private float fireRate = 2f;
+    [SerializeField] private AudioClip explosionSound;
 
     private float setShootTimer;
     private float timeToShoot = 0;
@@ -47,7 +48,10 @@ public class Enemy : MonoBehaviour
         if (health <= 0)
         {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+
             Destroy(gameObject);
+
+            AudioSource.PlayClipAtPoint(explosionSound, Camera.main.transform.position, 0.05f);
         }
         
     }
