@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float health = 500;
     [SerializeField] private GameObject explosionPrefab;
     [SerializeField] private AudioClip playerDeathSound;
+    [SerializeField] private AudioClip laserSound;
 
     private float moveSpeed;
     private float laserOffset;
@@ -49,6 +50,7 @@ public class Player : MonoBehaviour
         {
             Vector3 laserPosition = new Vector3(transform.position.x, transform.position.y + laserOffset, transform.position.z);
             Instantiate(laserPrefab, laserPosition, Quaternion.identity);
+            AudioSource.PlayClipAtPoint(laserSound, Camera.main.transform.position, 0.3f);
             timeToShoot = 1 / fireRate;
         }
     }

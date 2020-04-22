@@ -102,6 +102,8 @@ MonoBehaviour:
   fireRate: 10
   health: 500
   explosionPrefab: {fileID: 8967965413062128267, guid: a5d84b93115d2984b8d2f9fadb2bafa3, type: 3}
+  playerDeathSound: {fileID: 8300000, guid: fc7776f6ef92a7244beb6e8c6183fad9, type: 3}
+  laserSound: {fileID: 8300000, guid: 36426599152705146a7f2c00187923bb, type: 3}
 --- !u!95 &47955207
 Animator:
   serializedVersion: 3
