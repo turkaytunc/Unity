@@ -19,7 +19,6 @@ public class SetUI : MonoBehaviour
 
         if (gameManager.IsGameOver == false)
         {
-            Debug.Log("player text loaded");
             playerHealthText = transform.Find("PlayerHealthText").GetComponent<TextMeshProUGUI>();
             playerHealthText.text = gameManager.GetPlayerHealth().ToString();
         }
@@ -29,7 +28,7 @@ public class SetUI : MonoBehaviour
     {
         
         scoreText.text = gameManager.GetScore().ToString();
-        if (gameManager.IsGameOver == false && SceneManager.GetActiveScene().name != "MainMenu")
+        if (gameManager.IsGameOver == false && SceneManager.GetActiveScene().name != "MainMenu" && SceneManager.GetActiveScene().name != "GameOver")
         {
             playerHealthText.text = gameManager.GetPlayerHealth().ToString();
         }

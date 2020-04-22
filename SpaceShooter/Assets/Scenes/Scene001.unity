@@ -130,38 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 478175112, guid: c0e6272a91c834e438fd011d01bf2fd3, type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 478175112, guid: c0e6272a91c834e438fd011d01bf2fd3, type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 478175112, guid: c0e6272a91c834e438fd011d01bf2fd3, type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 478175112, guid: c0e6272a91c834e438fd011d01bf2fd3, type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1981393473, guid: c0e6272a91c834e438fd011d01bf2fd3, type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1981393473, guid: c0e6272a91c834e438fd011d01bf2fd3, type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1981393473, guid: c0e6272a91c834e438fd011d01bf2fd3, type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1981393473, guid: c0e6272a91c834e438fd011d01bf2fd3, type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2481052745144965217, guid: c0e6272a91c834e438fd011d01bf2fd3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -259,6 +227,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4286701484122619784, guid: 0ce67f98e7bdfda489638f0c43977cba, type: 3}
+      propertyPath: health
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 4286701484122619785, guid: 0ce67f98e7bdfda489638f0c43977cba, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
