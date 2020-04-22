@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     IEnumerator LoadGameOverScene()
     {
         yield return new WaitForSeconds(2f);
-        Debug.Log("hello");
+        SceneManager.LoadScene("GameOver");
 
     }
 }
