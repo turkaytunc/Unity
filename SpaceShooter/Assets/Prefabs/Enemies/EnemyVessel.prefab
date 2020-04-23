@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2000
-  scoreAmount: 500
+  scoreAmount: 200
   explosionPrefab: {fileID: 8967965413062128267, guid: bc7e76b334745ca4db41aeb26ac813b9, type: 3}
   laserPrefab: {fileID: 6582312278785615379, guid: d99286c84aae62c42afb481ebc9bf27f, type: 3}
   fireRate: 0.5
