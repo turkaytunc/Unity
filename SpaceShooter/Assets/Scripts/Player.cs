@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject laserPrefab;
     [SerializeField] private float fireRate = 10f;
 
-
     [SerializeField] private float health = 500;
     [SerializeField] private GameObject explosionPrefab;
     [SerializeField] private AudioClip playerDeathSound;
@@ -88,8 +87,6 @@ public class Player : MonoBehaviour
         return new Vector2(xPos, yPos);
     }
 
-
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         int damage = collision.gameObject.GetComponent<DamageDealer>().GetDamage();
@@ -110,7 +107,4 @@ public class Player : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-
-
 }

@@ -20,14 +20,11 @@ public class Enemy : MonoBehaviour
     {
         laserOffset = -1f;
         setShootTimer = 1 / fireRate;
-
-
     }
 
     private void Update()
     {
         Shoot();
-
     }
 
     private void Shoot()
@@ -43,10 +40,8 @@ public class Enemy : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-{
-       
+    {     
         int damage = collision.gameObject.GetComponent<DamageDealer>().GetDamage();
-
         health -= damage;
 
         if (health <= 0)
@@ -59,7 +54,6 @@ public class Enemy : MonoBehaviour
             Destroy(gameObject);
 
             AudioSource.PlayClipAtPoint(explosionSound, Camera.main.transform.position, 0.05f);
-        }
-        
+        }      
     }
 }
